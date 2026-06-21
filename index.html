@@ -17,12 +17,12 @@
               <li class="nav-item">Home</li>
             </a>
 
-            <a href="#projects">
-              <li class="nav-item">Projects</li>
-            </a>
-
             <a href="#about">
               <li class="nav-item">About</li>
+            </a>
+
+            <a href="#projects">
+              <li class="nav-item">Projects</li>
             </a>
 
             <a href="#contact">
@@ -51,7 +51,9 @@
 
           <div class="hero-btns">
             <a href="#projects" class="hero-btn-1">View Works</a>
-            <a href="#contact" class="hero-btn-2">Let's Talk</a>
+            <a href="./public/docs/resume.pdf" class="hero-btn-2"
+              >Download CV</a
+            >
           </div>
         </div>
 
@@ -185,7 +187,11 @@
               security and fundamentals.
             </p>
 
-            <a href="#" class="project-link" target="_blank">
+            <a
+              href="https://umacoin.vercel.app/"
+              class="project-link"
+              target="_blank"
+            >
               < View Details />
             </a>
           </div>
@@ -198,9 +204,9 @@
 
           <div class="project-card-contents">
             <div class="project-tags">
-              <div class="project-tag">cpp</div>
-              <div class="project-tag">blockchain</div>
-              <div class="project-tag">cryptography</div>
+              <div class="project-tag">next.js</div>
+              <div class="project-tag">web scraping</div>
+              <div class="project-tag">vercel</div>
             </div>
 
             <h4>KChip Auto Tuning</h4>
@@ -210,7 +216,11 @@
               Control Units (ECUs).
             </p>
 
-            <a href="#" class="project-link" target="_blank">
+            <a
+              href="https://kurkentrekker-chip-tuning.vercel.app/"
+              class="project-link"
+              target="_blank"
+            >
               < View Details />
             </a>
           </div>
@@ -223,9 +233,9 @@
 
           <div class="project-card-contents">
             <div class="project-tags">
-              <div class="project-tag">cpp</div>
-              <div class="project-tag">blockchain</div>
-              <div class="project-tag">cryptography</div>
+              <div class="project-tag">next.js</div>
+              <div class="project-tag">redux</div>
+              <div class="project-tag">api integration</div>
             </div>
 
             <h4>Tect.Host</h4>
@@ -235,7 +245,7 @@
               24/7 support.
             </p>
 
-            <a href="#" class="project-link" target="_blank">
+            <a href="https://tect.host/" class="project-link" target="_blank">
               < View Details />
             </a>
           </div>
@@ -299,5 +309,69 @@
         </div>
       </div>
     </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-container">
+        <div class="contact-content">
+          <h2 class="contact-heading">
+            Ready to initiate
+            <br />
+            <span> the next phase? </span>
+          </h2>
+          <p>
+            I am currently available for selective freelance projects and
+            collaborations. If you have an exciting opportunity or a project in
+            mind, feel free to reach out.
+          </p>
+
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <img src="./public/icons/mail.png" alt="mail" />
+              <a href="mailto:abubakar.devs@gmail.com"
+                >abubakar.devs@gmail.com</a
+              >
+            </div>
+
+            <div class="contact-info-item">
+              <img src="./public/icons/location.png" alt="location" />
+              <a href="#">Chittagong, BD / Remote</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name" required />
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your Email" required />
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="copyright">
+          <a href="/" class="logo"> ab<span>devs</span> </a>
+          <p>&copy; 2026 abdevs. All rights reserved.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#home" class="footer-link"> Home </a>
+          <a href="#about" class="footer-link"> About </a>
+          <a href="#projects" class="footer-link"> Projects </a>
+          <a href="#contact" class="footer-link"> Contact </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
