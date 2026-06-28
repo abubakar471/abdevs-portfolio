@@ -80,12 +80,12 @@
 
         <div class="hero-bottom flex items-center justify-between">
           <p>Full Stack Developer</p>
-          <div>
+          <div class="">
             <p style="text-align: center">
               If we fail, we fail searching for greatness
             </p>
             <p style="text-align: center">
-              If you knew what I know, then you would be doing what I am doing
+              Remember, the one who founded the empire wasn't a king
             </p>
           </div>
           <p>Chittagong</p>
@@ -97,10 +97,6 @@
     <section class="about-outer-container" id="about">
       <div class="about-container">
         <!-- Decorative blobs -->
-        <div class="blob blob-1"></div>
-        <div class="blob blob-2"></div>
-        <div class="blob blob-3"></div>
-
         <div
           class="flex items-center justify-evenly container about-container-inner"
         >
@@ -256,7 +252,7 @@
     <section class="skills" id="skills">
       <div class="container">
         <div class="skills-heading-container">
-          <h2 class="skills-heading">Technical <span>Arsenal</span></h2>
+          <h2 class="skills-heading"><span>Technical</span> Arsenal</h2>
           <p>
             Expertise built through years of rigorous experience and a
             relentless pursuit of knowledge in the ever-evolving world of
@@ -310,6 +306,157 @@
       </div>
     </section>
 
+    <!-- blogs section -->
+
+    <section class="blogs" id="blogs">
+      <div class="container">
+        <div class="blogs-heading-container">
+          <h2 class="blogs-heading">Latest <span>Blogs</span></h2>
+          <p>
+            Notes, ideas, and practical lessons from the road of building,
+            learning, and shipping across different corners of development.
+          </p>
+        </div>
+
+        <div class="blogs-cards">
+          <article class="blog-card">
+            <div class="blog-card-content">
+              <p class="blog-card-label">Engineering Thoughts</p>
+              <h3>Software Engineers Ain’t Engineering Anymore</h3>
+              <p>
+                A sharp take on how the craft of software work has shifted, and
+                what it means to still think like an engineer in 2026.
+              </p>
+            </div>
+
+            <a
+              href="https://devsdorm.hashnode.dev/software-engineers-ain-t-engineering-anymore"
+              class="blog-read-btn"
+              target="_blank"
+            >
+              Read Now
+            </a>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-card-content">
+              <p class="blog-card-label">Neovim Setup</p>
+              <h3>How to Set Up Neovim on Windows 2026</h3>
+              <p>
+                A practical walkthrough from terminal setup to a full IDE-like
+                Neovim workflow on Windows.
+              </p>
+            </div>
+
+            <a
+              href="https://devsdorm.hashnode.dev/how-to-set-up-neovim-on-windows-2026-from-terminal-to-full-ide"
+              class="blog-read-btn"
+              target="_blank"
+            >
+              Read Now
+            </a>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-card-content">
+              <p class="blog-card-label">Mindset</p>
+              <h3>FLNT: Fear of Learning New Things</h3>
+              <p>
+                A reflective post on the hesitation that slows growth and how to
+                keep moving when new tools or ideas feel uncomfortable.
+              </p>
+            </div>
+            <a
+              href="https://abubakardevs.substack.com/p/flnt-fear-of-learning-new-things"
+              class="blog-read-btn"
+              target="_blank"
+            >
+              Read Now
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- publications -->
+    <section class="publications" id="blogs">
+      <div class="container">
+        <div class="blogs-heading-container">
+          <h2 class="blogs-heading">My <span>Publications</span></h2>
+          <p>
+            Where theory meets implementation. A collection of my written work,
+            technical research, and deep dives into software architecture,
+            algorithmic problem-solving, and emerging technologies.
+          </p>
+        </div>
+
+        <div class="blogs-cards">
+          <article class="blog-card">
+            <div class="blog-card-content">
+              <img
+                src="./public/images/publication-1.jpg"
+                alt="publication"
+                class="publication-img"
+              />
+              <h3>
+                Building Custom Memory Containers: Optimizing Dynamic Array
+                Architectures in C++
+              </h3>
+              <p>
+                A deep dive into custom memory management and resource
+                allocation. This paper explores the performance tradeoffs,
+                manual capacity resizing, and optimization strategies involved
+                in engineering bespoke data structures from scratch.
+              </p>
+            </div>
+
+            <a href="#" class="blog-read-btn" target="_blank"> Read Now </a>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-card-content">
+              <img
+                src="./public/images/publication-1.jpg"
+                alt="publication"
+                class="publication-img"
+              />
+              <h3>
+                Mitigating Supply Chain Vulnerabilities in Modern Open-Source
+                Ecosystems
+              </h3>
+              <p>
+                An analysis of modern DevOps security blind spots, focusing on
+                package registry vulnerabilities, dependency tracking, and
+                automated auditing strategies to safeguard critical
+                infrastructure against pipeline attacks.
+              </p>
+            </div>
+
+            <a href="#" class="blog-read-btn" target="_blank"> Read Now </a>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-card-content">
+              <img
+                src="./public/images/publication-1.jpg"
+                alt="publication"
+                class="publication-img"
+              />
+              <h3>
+                Decentralized Ledger Networks: Architectural Tradeoffs in
+                Peer-to-Peer Transfer Protocols
+              </h3>
+              <p>
+                A technical examination of consensus mechanics, network state
+                management, and the UX challenges of building scalable,
+                low-latency node routing for decentralized transaction ledgers.
+              </p>
+            </div>
+            <a href="#" class="blog-read-btn" target="_blank"> Read Now </a>
+          </article>
+        </div>
+      </div>
+    </section>
     <section class="contact" id="contact">
       <div class="container contact-container">
         <div class="contact-content">
@@ -340,16 +487,27 @@
         </div>
 
         <div class="contact-form">
-          <form>
+          <form
+            action="mailto:abubakar.devs@gmail.com"
+            method="POST"
+            enctype="text/plain"
+          >
             <label for="name">Name</label>
-            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="text" id="name" name="name" required placeholder="Your Name"/>
             <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Your Email" required />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
 
             <label for="message">Message</label>
             <textarea
               id="message"
               placeholder="Your Message"
+              name="message"
               required
             ></textarea>
             <button type="submit">Send Message</button>
