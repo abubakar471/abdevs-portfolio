@@ -307,10 +307,8 @@ body {
   margin-bottom: 20px;
   color: #fff;
   font-size: 1.1rem;
-  line-height: 1.5;
-  font-family:
-    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
-    Arial, sans-serif;
+  line-height: 1.8;
+  font-family: Arial, sans-serif;
 }
 
 .about-stats {
