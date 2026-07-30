@@ -561,14 +561,18 @@
             enctype="text/plain"
           >
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" required placeholder="Your Name"/>
+            <input 
+                type="text" 
+                id="name" 
+                name="name" 
+                placeholder="Your Name"
+            />
             <label for="email">Email</label>
             <input
-              type="email"
+              type="text"
               id="email"
               name="email"
               placeholder="Your Email"
-              required
             />
 
             <label for="message">Message</label>
@@ -576,7 +580,6 @@
               id="message"
               placeholder="Your Message"
               name="message"
-              required
             ></textarea>
             <button type="submit">Send Message</button>
           </form>
@@ -603,6 +606,6 @@
       </div>
     </footer>
   
-    <script src="./script.js"></script>
+    <script src="./scripts/script.js" type="module"></script>
   </body>
 </html>
