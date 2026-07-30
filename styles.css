@@ -845,6 +845,14 @@ body {
   transition: all 0.1s ease-in-out;
 }
 
+#status-msg{
+    color: #bafe00;
+}
+
+.status-msg-error{
+    color: red !important;
+}
+
 .footer {
   width: 100%;
   padding: 40px 0;
